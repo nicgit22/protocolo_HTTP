@@ -2,14 +2,14 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 
 class Servidor(BaseHTTPRequestHandler):
 
- # Método GET (já usado antes)
+ # Método GET visualiza os dados "leitura"
     def do_GET(self):
         self.send_response(200)
         self.end_headers()
         self.wfile.write(b"Servidor funcionando com GET")
 
 
-    # Método POST (novo)
+    # Método POST envia dados para o servidor
     def do_POST(self):
         # pega o tamanho dos dados enviados na requisição
         tamanho = int(self.headers['Content-Length'])
