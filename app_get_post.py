@@ -1,3 +1,4 @@
+#importa as bibliotecas
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 class Servidor(BaseHTTPRequestHandler):
@@ -25,5 +26,5 @@ class Servidor(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(b"POST recebido")
 
-
+#8000 é a porta que vai rodar o servidor
 HTTPServer(("0.0.0.0", 8000), Servidor).serve_forever()
