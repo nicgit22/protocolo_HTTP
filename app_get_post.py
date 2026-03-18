@@ -1,4 +1,4 @@
-#importa as bibliotecas
+#importa as bibliotecas para o código
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 class Servidor(BaseHTTPRequestHandler):
