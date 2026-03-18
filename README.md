@@ -3,3 +3,6 @@
 
 # Requisição POST com POSTMAN
 <img width="716" height="741" alt="image" src="https://github.com/user-attachments/assets/f2944e25-639a-482f-9902-e84afd25baaf" />
+
+# Servidor recebendo requisição 🖥️
+<img width="1212" height="178" alt="image" src="https://github.com/user-attachments/assets/839a1a09-b3d1-49d8-9ff3-296032aa319b" />
